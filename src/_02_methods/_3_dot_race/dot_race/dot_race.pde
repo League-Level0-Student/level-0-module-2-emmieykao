@@ -6,6 +6,7 @@ void setup() {
     size(800, 200);
     
     //1. Set the variable named x to 50.
+   x=50;
 }
 
 void draw() {
