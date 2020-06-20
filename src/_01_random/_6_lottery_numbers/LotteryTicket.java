@@ -18,6 +18,6 @@ public static void main(String[] args) {
 	int number5 = s.nextInt(101) + 100;
 	Random e = new Random();
 	int number6 = e.nextInt(101) + 100;
-	JOptionPane.showMessageDialog(null, number1 + number2 + number3 + number4 + number5 + number6);;
+	JOptionPane.showMessageDialog(null, number1 + "   " + number2 + "   " + number3 + "   " + number4 + "   " + number5 + "   " + number6);;
 }
 }
