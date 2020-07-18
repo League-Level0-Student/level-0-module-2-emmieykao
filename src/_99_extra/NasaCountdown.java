@@ -22,18 +22,20 @@ String number = JOptionPane.showInputDialog(null, "Where should I start counting
 		
 		// 1. Print a countdown from 10 to 0 on the console
 int numberAsInt = Integer.parseInt(number);
-for (int i = 0; i < numberAsInt; i++) {
+for (int i = numberAsInt; i >= 0; i--) {
 
-System.out.println(numberAsInt + "!");
-numberAsInt=numberAsInt-1;
+System.out.println(i + "!");
+
+}
 
 			// 4. Use the speak method to hear the countdown.
-		speak(number);}
+		speak(number);{
 			// 6. Use the following code to make the program wait one second for each number: 
 		Thread.sleep(1000);
 		
 		// 5. when the counting is done, speak "blastoff!"
-		speak(blastoff!);
+		speak("blastoff!");
+		}
 	}
 
 static void speak(String words) {
